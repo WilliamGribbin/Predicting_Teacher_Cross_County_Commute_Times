@@ -167,7 +167,7 @@ def CSVGenerator(county1, county2, schoolLevel, timer, outfile):
 
 #a callable function that returns the drive location of 2 gps coordinates
 def gmapcalc(location1, location2, apiuse):
-   api_key = 'AIzaSyAn6U1F6NJIJx226L8sK5my_ECvHm7k18o'
+   api_key = 'addapikeyhere'
    gmaps = Client(api_key)
    data = distance_matrix(gmaps, location1, location2)
    timeaway = data['rows'][0]['elements'][0]['duration']['text']
